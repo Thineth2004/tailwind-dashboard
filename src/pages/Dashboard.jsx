@@ -1,4 +1,5 @@
-import Card from "../components/ui/Card";s
+import Card from "../components/ui/Card";
+import Button from "../components/ui/Button";
 
 export default function Dashboard() {
     return (
@@ -17,9 +18,9 @@ export default function Dashboard() {
                     </p>
                 </div>
 
-                <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+                <Button variant="primary">
                     Generate Report
-                </button>
+                </Button>
 
             </div>
 
