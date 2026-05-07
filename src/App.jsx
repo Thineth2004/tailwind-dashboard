@@ -1,10 +1,11 @@
-import Navbar from "./components/layout/Navbar";
-import Sidebar from "./components/layout/Sidebar";
 import MainLayout from "./layouts/MainLayout";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
     return (
-        <MainLayout />
+        <MainLayout>
+            <Dashboard />
+        </MainLayout>
     );
 }
 
