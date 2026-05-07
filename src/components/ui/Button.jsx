@@ -19,7 +19,7 @@ export default function Button({
         <button
             className={`
                 px-4 py-2 rounded-lg font-medium transition
-                ${variants[variant]}
+                ${variants[variant]} || ${variants.primary}
             `}
         >
             {children}
