@@ -9,7 +9,7 @@ export default function Button({
             "bg-blue-600 text-white hover:bg-blue-700",
 
         secondary:
-            "bg-gray-100 text-gray-700 hover:bg-gray-200",
+            "bg-gray-600 text-white hover:bg-gray-700",
 
         danger: 
             "bg-red-600 text-white hover:bg-red-700",

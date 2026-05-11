@@ -13,7 +13,7 @@ export default function Dashboard() {
                         Dashboard
                     </h1>
 
-                    <p className="text-sm test-gray-500 mt-1">
+                    <p className="text-sm text-gray-500 mt-1">
                         Welcome back, Admin
                     </p>
                 </div>
@@ -25,7 +25,7 @@ export default function Dashboard() {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
                 <Card>
 
@@ -67,10 +67,10 @@ export default function Dashboard() {
                 </Card>
             </div>
 
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
 
                 {/* Large Section */}
-                <div className="col-span-2 bg-white p-6 rounded-xl shadow-sm">
+                <div className="overflow-auto lg:col-span-2 bg-white p-6 rounded-xl shadow-sm">
                     <h2 className="text-lg font-semibold mb-4">Analytics</h2>
                     <div className="h-40 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400">
                         Chart Placeholder
@@ -78,7 +78,7 @@ export default function Dashboard() {
                 </div>
 
                 {/* Side Section */}
-                <div className="bg-white p-6 rounded-xl shadow-sm">
+                <div className="hidden md:block bg-white p-6 rounded-xl shadow-sm">
                     <h2 className="text-lg font-semibold mb-4">Recent Activity</h2>
                     
                     <ul className="space-y-4">
